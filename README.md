@@ -1,7 +1,8 @@
 # Ketogenic Diet TMEV
 
 ### Raw Data Processing and Alpha Diversity
-Raw 16S data processed using mothur v.1.48.3. Pipeline adapted from mothur MiSeq SOP, https://mothur.org/wiki/miseq_sop/. 
+Raw 16S data processed using mothur v.1.48.3. Pipeline adapted from mothur MiSeq SOP, https://mothur.org/wiki/miseq_sop/. Alpha diversity analysis is included as part of the mothur pipeline. Beta diversity and differential taxa analysis were conducted with R and RStudio version 2024.04.2+764. Primary packages include Phyloseq, vegan, and ggplot2. All packages are listed in the corresponding R scripts.
+
 
 **Required File for Sequence Processings**
 - SILVA database (release 138.2) obtained from: https://mothur.org/wiki/silva_reference_files/
@@ -9,8 +10,10 @@ Raw 16S data processed using mothur v.1.48.3. Pipeline adapted from mothur MiSeq
 
 
 ### Beta Diversity Analysis
-Shared file from mothur was converted into a Phyloseq object (using the "make phyloseq.R" script). Beta diversity and differential taxa analysis were conducted with R and RStudio version 2024.04.2+764. Primary packages include Phyloseq, vegan, and ggplot2. All packages are listed in the corresponding R scripts.
+OTU abundance tables and taxonomy files generated from mothur were compiled into a Phyloseq object (see make_phyloseq.R for construction of the OTU table), and sample metadata were incorporated. This script performs beta diversity analyses, including Bray-Curtis distance calculation, principal coordinates analysis (PCoA) ordination, PERMANOVA, and assessment of homogeneity of dispersion (betadisper).
 
+
+### Differential Abundance Analysis
 
 
 ### Questions 
