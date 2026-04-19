@@ -1,8 +1,7 @@
 # Ketogenic Diet TMEV
 
-### Raw Data Processing and Alpha Diversity
-Raw 16S data processed using mothur v.1.48.3. Pipeline adapted from mothur MiSeq SOP, https://mothur.org/wiki/miseq_sop/. Alpha diversity analysis is included as part of the mothur pipeline. Beta diversity and differential taxa analysis were conducted with R and RStudio version 2024.04.2+764. Primary packages include Phyloseq, vegan, and ggplot2. All packages are listed in the corresponding R scripts.
-
+### Amplicon Processing Pipeline and Alpha Diversity
+Mothur-based pipeline (v1.48.3) for processing paired-end 16S rRNA sequencing data (V3–V4). Includes read assembly, quality filtering, alignment to SILVA, chimera removal (VSEARCH), taxonomic classification (RDP v19), OTU clustering, and generation of shared and taxonomy files for downstream analysis. Also performs subsampling, rarefaction, and alpha diversity calculations.
 
 **Required File for Sequence Processings**
 - SILVA database (release 138.2) obtained from: https://mothur.org/wiki/silva_reference_files/
