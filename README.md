@@ -3,7 +3,7 @@
 ### Amplicon Processing Pipeline and Alpha Diversity
 Mothur-based pipeline (v1.48.3) for processing paired-end 16S rRNA sequencing data (V3–V4). Includes read assembly, quality filtering, alignment to SILVA, chimera removal (VSEARCH), taxonomic classification (RDP v19), OTU clustering, and generation of shared and taxonomy files for downstream analysis. Also performs subsampling, rarefaction, and alpha diversity calculations.
 
-**Required File for Sequence Processings**
+**Required File for Sequence Processing**
 - SILVA database (release 138.2) obtained from: https://mothur.org/wiki/silva_reference_files/
 - PDS reference files (version 19) obtained from: https://mothur.org/wiki/rdp_reference_files/
 
