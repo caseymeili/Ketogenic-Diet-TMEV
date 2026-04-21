@@ -13,7 +13,7 @@ OTU abundance tables and taxonomy files generated from mothur were compiled into
 
 
 ### Differential Abundance Analysis
-
+DESeq2-based differential abundance analysis on 16S data at 7 dpi (KD vs control). Aggregates counts to genus level, filters low-abundance taxa, and applies log fold change shrinkage (apeglm). Outputs a LEfSe-style bar plot of top differentially abundant genera and exports a table of significant results.
 
 ### Questions 
 Questions can be directed to Casey Meili (casey.meili@pharm.utah.edu)
