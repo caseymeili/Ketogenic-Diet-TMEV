@@ -9,7 +9,7 @@ Mothur-based pipeline (v1.48.3) for processing paired-end 16S rRNA sequencing da
 
 
 ### Beta Diversity Analysis
-OTU abundance tables and taxonomy files generated from mothur were compiled into a Phyloseq object (see make_phyloseq.R for construction of the OTU table), and sample metadata were incorporated. This script performs beta diversity analyses, including Bray-Curtis distance calculation, principal coordinates analysis (PCoA) ordination, PERMANOVA, and assessment of homogeneity of dispersion (betadisper).
+OTU abundance tables and taxonomy files generated from mothur were compiled into a Phyloseq object which incorporated sample metadata. This script performs beta diversity analyses, including Bray-Curtis distance calculation, principal coordinates analysis (PCoA) ordination, PERMANOVA, and assessment of homogeneity of dispersion (betadisper).
 
 
 ### Differential Abundance Analysis
